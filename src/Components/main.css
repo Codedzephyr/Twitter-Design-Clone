@@ -1,0 +1,729 @@
+section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.overallContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.twitterLogo {
+  margin-left: 0.9rem;
+}
+
+.twitterContainer {
+  margin: 1rem 0;
+}
+
+div.flexContainer {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+  padding: 0.4em 1em;
+  width: 100%;
+  gap: 15px;
+  max-width: 144px;
+}
+
+div.flexContainer1 {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+  padding: 0.4em 1em;
+  width: 100%;
+  gap: 15px;
+  max-width: 159px;
+}
+
+div.flexContainer2 {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+  padding: 0.4em 1em;
+  width: 100%;
+  max-width: 212px;
+}
+
+div.flexContainer3 {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+  padding: 0.4em 1em;
+  width: 100%;
+
+  max-width: 182px;
+}
+
+div.flexContainer4 {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+  padding: 0.4em 1em;
+  width: 100%;
+  max-width: 197px;
+}
+
+div.flexContainer5 {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+  padding: 0.4em 1em;
+  width: 100%;
+  gap: 15px;
+  max-width: 137px;
+}
+
+div.flexContainer6 {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+  padding: 0.4em 1em;
+  width: 100%;
+  gap: 15px;
+  max-width: 155px;
+}
+
+div.flexContainer7 {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 0.9rem;
+  padding: 0.4em 1em;
+  width: 100%;
+  gap: 15px;
+  max-width: 144px;
+}
+
+div.flexContainer:hover {
+  background-color: #16181c;
+  border-radius: 20px;
+}
+
+div.flexContainer1:hover {
+  background-color: #16181c;
+  border-radius: 20px;
+}
+
+div.flexContainer2:hover {
+  background-color: #16181c;
+  border-radius: 20px;
+}
+
+div.flexContainer3:hover {
+  background-color: #16181c;
+  border-radius: 20px;
+}
+
+div.flexContainer4:hover {
+  background-color: #16181c;
+  border-radius: 20px;
+}
+
+div.flexContainer5:hover {
+  background-color: #16181c;
+  border-radius: 20px;
+}
+
+div.flexContainer6:hover {
+  background-color: #16181c;
+  border-radius: 20px;
+}
+
+div.flexContainer7:hover {
+  background-color: #16181c;
+  border-radius: 20px;
+}
+
+div.iconContainer {
+  flex: 1;
+}
+
+div.iconContainer1 {
+  flex: 2;
+}
+
+div.iconContainer2 {
+  flex: 4;
+}
+
+div.textContainer2 {
+  flex: 1;
+}
+
+p.textholder {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 0.3rem 0;
+  color: white;
+}
+
+.tweetButtonContainer {
+  margin: 2rem 0;
+}
+
+button.tweetButton {
+  background-color: #03a9f4;
+  border: none;
+  color: white;
+  width: 80%;
+  border-radius: 20px;
+  padding: 0.9375em 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0.25rem 0.125rem;
+  cursor: pointer;
+}
+
+div.avatarContainer {
+  display: flex;
+  margin: 1.9rem 0;
+  width: 90%;
+  padding: 0.5rem 0;
+}
+
+div.avatarSubContainer {
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+
+div.avatarContainer:hover {
+  background-color: #16181c;
+  border-radius: 20px;
+}
+
+div.avatarTextContainer {
+  flex: 2;
+}
+
+div.avatarOptionsContainer {
+  flex: 1;
+}
+
+p.avatarMainText {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  font-size: 0.9375rem;
+  color: rgb(231, 233, 234);
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+p.avatarSubText {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  color: rgb(113, 118, 123);
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+div.avatarOptionsContainer {
+  display: grid;
+  place-items: center;
+}
+
+button.responsiveTweetButton {
+  display: none;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-right: 0.4rem;
+  background-color: rgb(29, 155, 240);
+}
+
+div.avatarTextContainer {
+  display: block;
+}
+
+div.avatarOptionsContainer {
+  display: block;
+}
+
+button.tweetButton1 {
+  background-color: #03a9f4;
+  border: none;
+  color: white;
+  /* width: 80px; */
+  border-radius: 20px;
+  padding: 0.5375em 1.2em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0.25rem 0.125rem;
+  cursor: pointer;
+}
+
+/* feeds */
+
+div.fixedTopContainer {
+  display: none;
+}
+div.headerSubContainer {
+  width: 100%;
+  border: 1px solid rgb(47, 51, 54);
+}
+
+div.headerSubContainerMini {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 0.9em;
+  display: block;
+}
+
+div.actualFormContainer {
+  flex: 10;
+}
+
+div.avatarFormContainer {
+  flex: 1;
+}
+
+div.topFeedsContainer {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+
+p.leftText {
+  font-size: 1.25rem;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: rgb(231, 233, 234);
+  padding: 0.25rem 0;
+}
+
+div.formContainer {
+  display: flex;
+  height: 100px;
+}
+
+#tweetInputForm {
+  width: 100%;
+  padding: 0.8125em;
+  border: none;
+  color: white;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  resize: vertical;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+#tweetInputForm:focus {
+  border: none;
+  outline: none;
+}
+
+#tweetInputForm::placeholder {
+  color: #71767b;
+  padding-bottom: 0.125em;
+  padding-top: 0.125em;
+}
+
+div.flexIconsList {
+  flex: 2;
+}
+
+ul.trendsIconsList {
+  display: flex;
+  margin-top: 0.2rem;
+  width: 80%;
+  justify-content: space-between;
+}
+
+li.trendsIconsListItem {
+  padding: 0.5em;
+  border-radius: 50%;
+  /* background-color: aqua; */
+}
+
+li.trendsIconsListItem > svg > span {
+  color: red;
+}
+
+li.trendsIconsListItem:nth-child(1):hover {
+  background-color: rgba(29, 155, 240, 0.1);
+}
+
+li.trendsIconsListItem:nth-child(1):hover > svg {
+  fill: rgba(29, 155, 240);
+}
+
+li.trendsIconsListItem:nth-child(2):hover {
+  background-color: rgba(0, 186, 124, 0.1);
+}
+
+li.trendsIconsListItem:nth-child(2):hover > svg {
+  fill: rgba(0, 186, 124);
+}
+
+li.trendsIconsListItem:nth-child(3):hover {
+  background-color: rgba(249, 24, 128, 0.1);
+}
+
+li.trendsIconsListItem:nth-child(3):hover > svg {
+  fill: rgba(249, 24, 128);
+}
+
+li.trendsIconsListItem:nth-child(4):hover {
+  background-color: rgba(29, 155, 240, 0.1);
+}
+
+li.trendsIconsListItem:nth-child(4):hover > svg {
+  fill: rgba(29, 155, 240);
+}
+
+div.tweetInputFormButtonContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.tweetInputFormsIcons {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.flexIconsList {
+  display: flex;
+  max-width: 216px;
+  padding: 0.4em 0.8125em;
+  margin: 0.6rem 0;
+  justify-content: space-between;
+}
+
+div.feedsMiddleTextContainer {
+  display: grid;
+  place-items: center;
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+p.feedsMiddleText {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: rgb(29, 155, 240);
+  padding: 1.7em 0;
+}
+
+div.trendsContainer {
+  width: 80%;
+  height: 500px;
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+}
+
+#search {
+  width: 100%;
+  padding: 0.75rem 3rem;
+  border: 1px solid #16181c;
+  border-radius: 20px;
+  resize: vertical;
+  background-color: #16181c;
+  color: rgb(113, 118, 123);
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.9375rem;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+#search:focus {
+  background-color: #16181c;
+  border: 1px solid rgb(29, 155, 240);
+  outline: none;
+}
+
+div.searchInputcontainer {
+  position: relative;
+}
+
+div.searchIconContainer {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+}
+
+div.avatarMiddleContainerItem {
+  flex: 1;
+}
+
+p.textMiddleContainer {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: rgb(231, 233, 234);
+  display: inline-block;
+}
+
+p.textColor {
+  color: rgb(113, 118, 123);
+  display: inline-block;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  margin-left: 0.4rem;
+}
+
+span.optionsContainer {
+  float: right;
+}
+
+div.mainFeedsMiddleContainerItem {
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+div.feedsMiddleContainerItem {
+  display: flex;
+  gap: 10px;
+  width: 95%;
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
+div.contentsMiddleContainer {
+  flex: 10;
+}
+
+p.descriptionsMiddleText {
+  color: white;
+  padding: 0.6rem 0;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 0.9375rem;
+}
+
+div.listOfTrendsContainer {
+  border-radius: 12px;
+  background-color: rgb(22, 24, 28);
+  margin-top: 1rem;
+}
+
+.trendsText {
+  padding-top: 1.2rem;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  color: rgb(231, 233, 234);
+  font-size: 1.25rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  line-height: 24px;
+  font-weight: 800;
+}
+
+div.trendslistItem {
+  padding: 0.5em 1.3rem;
+  margin-top: 0.3rem;
+  display: flex;
+}
+
+div.gapContainer {
+  display: none;
+}
+div.trendslistItem:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+div.leftTrendslistItem {
+  flex: 2;
+}
+
+div.rightTrendslistItem {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+p.trendsListItemText {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgb(113, 118, 123);
+  font-size: 0.8125rem;
+}
+
+p.trendsListItemText1 {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 0.4rem 0;
+  color: rgb(231, 233, 234);
+  font-size: 0.9375rem;
+}
+
+p.trendsListItemText2 {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 0.4rem 0;
+  color: rgb(113, 118, 123);
+  font-size: 0.8125rem;
+}
+
+div.rightBottomFixedTrendsContainer {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  border-top: 1px solid rgb(47, 51, 54);
+  width: 24%;
+  display: block;
+}
+
+div.rightBottomFixedTrendsContainer1 {
+  display: flex;
+}
+
+div.textLeftBottomFixedTrendsContainer {
+  flex: 1;
+}
+
+div.textrightBottomFixedTrendsContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+p.textLeftBottom {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0.9em 0.9em;
+  color: rgb(231, 233, 234);
+  font-size: 1.25rem;
+}
+
+div.flexEndContents {
+  padding: 0.9em 0;
+}
+
+div.flexEndContents > svg {
+  cursor: pointer;
+  border-radius: 50%;
+}
+div.flexEndContents > svg:nth-child(2) {
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+@media screen and (max-width: 1200px) {
+  div.textContainer {
+    display: none;
+  }
+
+  div.rightBottomFixedTrendsContainer {
+    display: none;
+  }
+
+  div.textContainer1 {
+    display: none;
+  }
+
+  div.avatarTextContainer {
+    display: none;
+  }
+
+  div.avatarOptionsContainer {
+    display: none;
+  }
+
+  div.avatarSubContainer {
+    place-items: normal start;
+  }
+  div.trendsContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  button.responsiveTweetButton {
+    display: block;
+  }
+
+  button.tweetButton {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  div.headerSubContainer {
+    display: none;
+  }
+  div.fixedTopContainer {
+    display: block;
+  }
+
+  div.fixedTopContainerSub {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    width: 95%;
+    margin: 1rem auto;
+  }
+
+  div.gapContainer {
+    width: 100%;
+    height: 65px;
+    display: block;
+  }
+
+  div.avatarFixedTopContainer {
+    flex: 1;
+  }
+
+  div.textFixedTopContainer {
+    flex: 3;
+  }
+  p.leftText1 {
+    font-size: 1.25rem;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(231, 233, 234);
+    padding: 0.9rem 0;
+  }
+
+  div.iconFixedTopContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  p.textMiddleContainer {
+    width: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 0.4rem;
+    text-overflow: ellipsis;
+  }
+}
