@@ -172,7 +172,7 @@ button.tweetButton {
   border: none;
   color: white;
   width: 80%;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 0.9375em 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
@@ -188,6 +188,7 @@ div.avatarContainer {
   display: flex;
   margin: 1.9rem 0;
   width: 90%;
+  gap: 15px;
   padding: 0.5rem 0;
 }
 
@@ -351,6 +352,7 @@ ul.trendsIconsList {
 li.trendsIconsListItem {
   padding: 0.5em;
   border-radius: 50%;
+  cursor: pointer;
   /* background-color: aqua; */
 }
 
@@ -405,6 +407,7 @@ div.tweetInputFormsIcons {
 ul.flexIconsList {
   display: flex;
   max-width: 216px;
+  cursor: pointer;
   padding: 0.4em 0.8125em;
   margin: 0.6rem 0;
   justify-content: space-between;
@@ -633,6 +636,221 @@ div.flexEndContents > svg:nth-child(2) {
   margin-left: 0.6rem;
   margin-right: 0.6rem;
 }
+
+/* side nav */
+
+.sidenav {
+  height: 100%;
+  width: 70%;
+  max-width: 280px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0px;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: all ease-in-out 250ms;
+}
+
+.sidenavdisappear {
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -500px;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  /* display: none; */
+  transition: all ease-in-out 250ms;
+}
+
+.mainSidenavContainer {
+  display: block;
+}
+
+.mainSidenavContainerdissapears {
+  display: none;
+}
+
+p.avatarText {
+  color: rgb(231, 233, 234);
+  font-weight: 700;
+  font-size: 1.063rem;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  line-height: 20px;
+}
+
+p.accountText {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.063rem;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(231, 233, 234);
+}
+
+p.avatarText1 {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(113, 118, 123);
+}
+
+div.mainAvatarContainer {
+  display: flex;
+  padding: 0 1rem;
+  margin: 1.45rem 0 0.9rem 0;
+}
+
+div.avatarSideNavContainer {
+  flex: 1;
+}
+
+div.iconRightContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.miniIconRightContainer {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+#plus {
+  padding: 0.4rem 0.2rem;
+  width: 2.625rem;
+  height: 2.625rem;
+}
+
+div.followersContainer {
+  margin: 0.9rem 0;
+  padding: 0rem 1rem;
+}
+
+.followersText {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 20px;
+  margin-right: 0.3rem;
+  font-size: 0.9375rem;
+  color: rgb(231, 233, 234);
+}
+
+.followersText1 {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 0.9375rem;
+  margin-left: 0.6rem;
+  color: rgb(231, 233, 234);
+}
+
+.colorText {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: rgb(113, 118, 123);
+  line-height: 20px;
+  font-size: 0.9375rem;
+  margin-left: 0.1rem;
+}
+
+.colorText1 {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: rgb(113, 118, 123);
+  line-height: 20px;
+  font-size: 0.9375rem;
+  margin-left: 0.3rem;
+}
+
+.colorText {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: rgb(113, 118, 123);
+  line-height: 20px;
+  font-size: 0.9375rem;
+  margin-left: 0.1rem;
+}
+div.sideNavIconsContainer {
+  margin-top: 2rem;
+}
+p.iconText {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.9375rem;
+  color: rgb(231, 233, 234);
+  font-weight: 400;
+  padding: 0.2rem 0;
+}
+
+div.sideNavFlex {
+  display: flex;
+  padding: 0.9rem 1rem;
+}
+
+div.sideNavFlex:hover {
+  background-color: #03a9f4;
+}
+
+.line {
+  background-color: rgb(47, 51, 54);
+  margin: 0.3rem 0;
+  height: 1px;
+}
+
+div.iconFlexContainer {
+  flex: 1;
+}
+
+div.iconsTextContainer {
+  flex: 6;
+}
+
+header.background {
+  background-color: black;
+}
+
+.minimySidenavContainer {
+  display: block;
+  transition: 0.3s;
+}
+
+.minimySideContainerdisappear {
+  display: none;
+  padding: 1rem;
+}
+
+div.accountInfo {
+  display: flex;
+  padding: 0 1rem;
+  margin: 0.9rem 0rem;
+}
+
+div.subAccountInfo {
+  flex: 1;
+}
+
+div.closeIconContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hamidContainer {
+  padding: 0rem 1rem;
+}
+
 @media screen and (max-width: 1200px) {
   div.textContainer {
     display: none;
@@ -679,13 +897,25 @@ div.flexEndContents > svg:nth-child(2) {
   div.fixedTopContainer {
     display: block;
   }
+  .background {
+    background-color: rgba(91, 112, 131, 0.4);
+  }
 
   div.fixedTopContainerSub {
     display: flex;
     position: fixed;
     top: 0;
     right: 0;
-    background-color: rgb(0, 0, 0);
+    width: 95%;
+    margin: 1rem auto;
+  }
+
+  div.fixedTopContainerSubTrue {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+
     width: 95%;
     margin: 1rem auto;
   }

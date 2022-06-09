@@ -1,4 +1,3 @@
-import React from "react";
 import Feeds from "../Components/Feeds";
 import Trends from "../Components/Trends";
 import Navbar from "./../Components/Navbar";
