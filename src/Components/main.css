@@ -185,6 +185,8 @@ button.tweetButton {
 }
 
 div.avatarContainer {
+  position: relative;
+  top: 40px;
   display: flex;
   margin: 1.9rem 0;
   width: 90%;
@@ -819,6 +821,14 @@ div.iconsTextContainer {
 
 header.background {
   background-color: black;
+}
+
+.searchBackground {
+  fill: rgb(29, 155, 240);
+}
+
+.serachBackgroundOriginal {
+  fill: rgb(231, 233, 234);
 }
 
 .minimySidenavContainer {
